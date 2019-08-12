@@ -32,6 +32,9 @@ const App = () => {
         <View>
           <Text style={styles.sectionTitle}>
             var: {TEST_VARIABLE}
+          </Text>          
+          <Text style={styles.sectionTitle}>
+            secret: {SECRET_VARIABLE}
           </Text>
         </View>
       </View>
