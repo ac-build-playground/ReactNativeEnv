@@ -15,7 +15,6 @@ import {
   Text,
   StatusBar,
 } from 'react-native';
-import { TEST_VARIABLE } from 'react-native-dotenv'
 
 import {
   Header,
@@ -31,10 +30,10 @@ const App = () => {
       <View style={styles.body}>
         <View>
           <Text style={styles.sectionTitle}>
-            var: {TEST_VARIABLE}
+            var: {process.env.TEST_VARIABLE}
           </Text>          
           <Text style={styles.sectionTitle}>
-            secret: {SECRET_VARIABLE}
+            secret: {process.env.SECRET_VARIABLE}
           </Text>
         </View>
       </View>
