@@ -148,7 +148,6 @@
 				E11DDD994614124018878894 /* Pods-ReactNativeEnvTests.debug.xcconfig */,
 				A96D90F4C02A0D518BEE42F8 /* Pods-ReactNativeEnvTests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -308,6 +307,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -635,7 +635,7 @@
 					"-ObjC",
 					"-lc++",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ewgenius.ios-native-application";
 				PRODUCT_NAME = ReactNativeEnv;
 				VERSIONING_SYSTEM = "apple-generic";
 			};
@@ -654,7 +654,7 @@
 					"-ObjC",
 					"-lc++",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ewgenius.ios-native-application";
 				PRODUCT_NAME = ReactNativeEnv;
 				VERSIONING_SYSTEM = "apple-generic";
 			};
