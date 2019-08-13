@@ -473,7 +473,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "# Type a script or drag a script file from your workspace to insert its path.\necho \"TEST_VARIABLE\"\necho $TEST_VARIABLE\necho \"SECRET_VARIABLE\"\necho $SECRET_VARIABLE\n";
+			shellScript = "# Type a script or drag a script file from your workspace to insert its path.\nif [ $SECRET_VARIABLE == \"set in CI\" ]; then\n    echo \"secret is valid\"\nfi\n";
 		};
 		CDA100BF59B31EAB9F9607F1 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
